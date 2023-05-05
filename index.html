@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas e imagenes|CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <section class="content-header">
+            <h1 class="title">Notas Del dia</h1>
+            <!-- <nav class="navbar">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </nav> -->
+        </section>
+    </header>
+    <main>
+        <div class="content-main">
+            <section class="sec1">
+                <form class="formulario" method="post" class="" enctype="multipart/form-data">
+                    <!-- <label class="formText" for="textNotas">Nota</label>
+                    <input class="inputText" type="text" maxlength="100" name="notas" id="textNotas"> -->
+                    <label class="formText" for="imgNotas">Cargar Imagen</label>
+                    <input class="inputFile" type="file" name="imgcarga" id="imgNotas" accept=".jpg, .jpeg, .png, .svg, .gif">
+                    <input class="formSend" type="submit" value="enviar">
+                </form>
+            </section>
+            <section class="sec2">
+                <h1 class="formText">Mostrando datos</h1>
+                <!--mostrar datos con javaScript-->
+<!--                 <article class="card">
+                    <img class="card-img" src="" alt="imagen">
+                    <p class="card-text2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi incidunt explicabo tenetur placeat. Sit neque doloremque nemo mollitia velit molestias tempore ipsa quod sequi ipsam, aperiam nostrum illo nesciunt facere?</p>
+                </article> -->
+            </section>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
